@@ -1,0 +1,144 @@
+﻿/*CarShowroom salonBronowice = new CarShowroom("Bronowice".Trim(), 21);
+            CarShowroom salonWroclaw = new CarShowroom("Wroclaw".Trim(), 20);
+            CarShowroom salonGdansk = new CarShowroom("Gdasnk".Trim(), 22);
+            CarShowroom salonWarszawa = new CarShowroom("Warszawa".Trim(), 19);
+
+
+            Vehicle vehicle = new Vehicle("BMW", "X6", ItemCondition.NEW.ToString(), 390000, 2020, 10.0, 3.5,salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC90", ItemCondition.USED.ToString(), 140000, 2018, 10.0, 3.5,salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLC", ItemCondition.NEW.ToString(), 175000, 2020, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLE", ItemCondition.NEW.ToString(), 260000, 2020, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC90", ItemCondition.USED.ToString(), 120000, 2019, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLS", ItemCondition.NEW.ToString(), 450000, 2020, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC30", ItemCondition.USED.ToString(), 75000, 2017, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLC", ItemCondition.NEW.ToString(), 180000, 2020, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Audi", "Q8", ItemCondition.NEW.ToString(), 457000, 2020, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC60", ItemCondition.USED.ToString(), 99000, 2016, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Audi", "Q8", ItemCondition.NEW.ToString(), 450000, 2020, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC90", ItemCondition.USED.ToString(), 167000, 2019, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLC", ItemCondition.NEW.ToString(), 191000, 2020, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLC", ItemCondition.USED.ToString(), 160000, 2018, 10.0, 3.5, salonBronowice.Name);
+            salonBronowice.CarList.Add(vehicle);
+
+            vehicle = new Vehicle("Fiat", "Panda", ItemCondition.NEW.ToString(), 59000, 2020, 10.0, 2.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Fiat", "500X", ItemCondition.USED.ToString(), 45000, 2010, 10.0, 1.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Fiat", "500L", ItemCondition.NEW.ToString(), 49000, 2020, 11.0, 1.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "Corsa-E", ItemCondition.NEW.ToString(), 49000, 2020, 10.0, 2.0, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle); 
+            vehicle = new Vehicle("Opel", "Insignia", ItemCondition.USED.ToString(), 75000, 2016, 10.0, 1.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "Insignia Sport", ItemCondition.NEW.ToString(), 52000, 2020, 10.0, 2.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "CrossLand", ItemCondition.USED.ToString(), 45000, 2017, 10.0, 1.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "Mokka", ItemCondition.NEW.ToString(), 35000, 2020, 10.0, 2.0, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "Furgon", ItemCondition.NEW.ToString(), 45000, 2020, 10.0, 1.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Fiat", "500", ItemCondition.USED.ToString(), 20000, 2015, 10.0, 1.9, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "Astra", ItemCondition.NEW.ToString(), 55000, 2020, 10.0, 1.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "E-Kombi", ItemCondition.USED.ToString(), 120000, 2014, 10.0, 2.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "Zafira-Life", ItemCondition.NEW.ToString(), 135000, 2020, 10.0, 2.0, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+            vehicle = new Vehicle("Opel", "Zafira-E-Life", ItemCondition.USED.ToString(), 145000, 2013, 10.0, 2.5, salonWarszawa.Name);
+            salonWarszawa.CarList.Add(vehicle);
+
+            vehicle = new Vehicle("Peugeot", "208", ItemCondition.NEW.ToString(), 80000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "2008 SUV", ItemCondition.USED.ToString(), 96000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "508 SEDAN", ItemCondition.NEW.ToString(), 87000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "508 SW", ItemCondition.NEW.ToString(), 72000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "SUV 5008", ItemCondition.USED.ToString(), 78000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "Rifter", ItemCondition.NEW.ToString(), 82000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "Expert Combi", ItemCondition.USED.ToString(), 81000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "SUV 5008", ItemCondition.NEW.ToString(), 62000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Peugeot", "508 SPORT ENGINEERED", ItemCondition.NEW.ToString(), 59000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC90", ItemCondition.USED.ToString(), 450000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Audi", "Q8", ItemCondition.NEW.ToString(), 450000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC90", ItemCondition.USED.ToString(), 450000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLC", ItemCondition.NEW.ToString(), 450000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLC", ItemCondition.USED.ToString(), 450000, 2020, 10.0, 3.5, salonGdansk.Name);
+            salonGdansk.CarList.Add(vehicle);
+
+            vehicle = new Vehicle("BMW", "X5", ItemCondition.NEW.ToString(), 390000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Alfa", "Julietta", ItemCondition.USED.ToString(), 140000, 2018, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "CLA", ItemCondition.NEW.ToString(), 175000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "EQC", ItemCondition.NEW.ToString(), 360000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Wolkswagen", "Touareq", ItemCondition.USED.ToString(), 120000, 2019, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLA", ItemCondition.NEW.ToString(), 450000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC60", ItemCondition.USED.ToString(), 75000, 2017, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "S", ItemCondition.NEW.ToString(), 599000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Audi", "Q7", ItemCondition.NEW.ToString(), 290000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC30", ItemCondition.USED.ToString(), 99000, 2016, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Audi", "Q5", ItemCondition.NEW.ToString(), 190000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Volvo", "XC30", ItemCondition.USED.ToString(), 167000, 2019, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GL", ItemCondition.NEW.ToString(), 391000, 2020, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+            vehicle = new Vehicle("Mercedes", "GLE", ItemCondition.USED.ToString(), 160000, 2018, 10.0, 3.5, salonWroclaw.Name);
+            salonWroclaw.CarList.Add(vehicle);
+
+            salonContainer = new CarShowroomContainer();
+            salonContainer.salons.Add(salonBronowice);
+            salonContainer.salons.Add(salonWarszawa);
+            salonContainer.salons.Add(salonWroclaw);
+            salonContainer.salons.Add(salonGdansk);
+
+            _context.CarShowroomContainers.Add(salonContainer);
+            _context.CarShowrooms.Add(salonBronowice);
+            _context.CarShowrooms.Add(salonWarszawa);
+            _context.CarShowrooms.Add(salonGdansk); 
+            _context.CarShowrooms.Add(salonWroclaw);
+
+            foreach (var list in salonContainer.salons)
+            {
+
+                foreach (var vehicleItem in list.CarList)
+                {
+                    _context.Vehicles.Add(vehicleItem);
+                }
+            }
+
+            _context.SaveChanges();*/
